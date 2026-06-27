@@ -1,7 +1,7 @@
 from typing import TypedDict
 
 
-class AgetState(TypedDict):
+class AgentState(TypedDict):
     question: str
     location: str
     gathered_data: str
